@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Raceday Countdown 🏎️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
 
-## Available Scripts
+During my run at Tesla, I met countless diehard fans of [Formula 1](https://www.formula1.com/). This obsession trickled down to me and as a new fan, I am constantly trying to keep up with the sport. This web app is a simple way for me to document what's happening and my growing knowledge.
 
-In the project directory, you can run:
+**Note: This project is still in development.**
 
-### `npm start`
+## What It Does
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This application was a spur of the moment idea I had when I missed the [2024 Saudi Arabian Grand Prix](https://www.formula1.com/en/latest/video.top-10-onboard-moments-2024-saudi-arabian-grand-prix.1793240439979961206.html). Being a busy student means that I often can't tune into worldwide races, so what better way for me to get a summary of what happened and when the next race will be.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Development Thought Process
 
-### `npm test`
+I am a huge of React.js as it's a powerful web framework that allows me to build web apps quickly. This application is your standard web app comprised of Javascript, HTML, and CSS with React. The API I'm using is the [Ergast API](https://ergast.com/mrd/) which is a jam-packed API that provides a ton of data related to F1. Unfortunately, it will not be supported after this season, so I will most likely have to switch over to the [FastF1 API](https://docs.fastf1.dev/). Bright side -- this gives me more time to flesh out this project before migrating.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What's next?
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Read API Docs to see what features I can implement to make the application more robust.
+- Update the frontend to make it more user-friendly and spice it up overall.
+- In the future, I would love to make a predicition model implemented into this app.
