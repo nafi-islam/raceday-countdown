@@ -39,7 +39,7 @@ function Countdown({ raceDate }) {
       {raceDate ? (
         <div className="Countdown">
           <h2>Countdown to Race</h2>
-          <p>
+          <p className='font-link'>
             {timeLeft.days} Days {timeLeft.hours} Hours {timeLeft.minutes}{' '}
             Minutes {timeLeft.seconds} Seconds
           </p>
